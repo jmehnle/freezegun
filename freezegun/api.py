@@ -21,6 +21,8 @@ try:
 except ImportError:
     MayaDT = None
 
+# TODO
+
 _TIME_NS_PRESENT = hasattr(time, 'time_ns')
 _EPOCH = datetime.datetime(1970, 1, 1)
 _EPOCHTZ = datetime.datetime(1970, 1, 1, tzinfo=dateutil.tz.UTC)
